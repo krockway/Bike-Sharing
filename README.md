@@ -7,6 +7,7 @@ For this project, the goal is to analyze the Citbike usage data for New York Cit
 201908-citibike-tripdata2.csv
 
 ## Results: 
+[Link to dashboard](https://public.tableau.com/profile/kaitlin.rockway#!/vizhome/NYC_Citibike_Analysis_Challenge/Analysis)
 
 After examining the NYC data, I was able to extract the following visualizations:
 
