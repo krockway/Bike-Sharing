@@ -1,20 +1,28 @@
 # Bike-Sharing
 
-## Project Overview
-For this project, the goal is to analyze the Citbike usage data for New York City to determine whether a bike rental program would succeed in Des Moines, Iowa.
+## Purpose
+The goal of this project is to analyze Citibike usage data from New York City to determine whether a bike rental program would succeed in Des Moines, Iowa.
 
-## Resources
-201908-citibike-tripdata2.csv
+## Process
+I started by combining the supplied CSV files into a single dataframe and then converting the trip duration to seconds, to create a standard unit of measure.
 
-## Results: 
+Then I loaded the data into Tableau and created graphs to support my analysis questions.
+
+## Tools & Languages
+
+* Tableau
+* Jupyter Notebook
+* Python
+
+## Analysis
 [Link to dashboard](https://public.tableau.com/profile/kaitlin.rockway#!/vizhome/NYC_Citibike_Analysis_Challenge/Analysis)
 
-After examining the NYC data, I was able to extract the following visualizations:
+After examining the NYC data, I was able to extract these visualizations to support the following analysis questions:
 
 ### Are men or women more likely to use the service?
 ![Gender](https://github.com/krockway/Bike-Sharing/blob/main/images/Gender.png)
 
-Both men and women are equally likely to use the service, but men are more likely to be subscribers. 
+Both men and women are equally likely to use the service, but men are more likely to be subscribers.
 
 ### How long is each bike used for? Is gender a factor?
 ![TimeUsed](https://github.com/krockway/Bike-Sharing/blob/main/images/TimeUsed.png)
@@ -39,13 +47,17 @@ Manhattan is by far the most common starting point for rides. This is likely bec
 ### When is the best time to do repairs?
 ![Repairs](https://github.com/krockway/Bike-Sharing/blob/main/images/Repairs.png)
 
-Luckily there is a small number of bicycles with extremely heavy (more than 384 rides) or heavy (more than 288 rides) usage (indicated in red). When compared with the least common number of rides, maintenance and repairs can easily be achieved between 11pm and 4am.
+Luckily there is a small number of bicycles with extremely heavy (more than 384 rides) or heavy (more than 288 rides) usage (indicated in red). When compared with the least common start times, maintenance and repairs can easily be completed between 11pm and 4am.
 
-## Summary:
+## Results
 
-Overall, New York City (and Manhattan specifically) is a great place for a bike rental company like CitiBike. If Des Moines has a concentrated business center in which riders can commute via bike, they could also be a great place for this service. 
+Overall, New York City (and Manhattan specifically) is a great place for a bike rental company like CitiBike. If Des Moines has a concentrated business center in which riders can commute via bike, it could also be a great place for this service.
 
-Before committing to this business, you and Kate should also examine the data more months of data. August is peak season in terms of weather and tourists, I presume that the winter months experience decreased ridership and this is important to know before committing. Will this be a seasonal business or year round?
+## Challenges & Next Steps
+
+Before committing to launching CitiBike in Des Moines, the owners should examine more months of data. August is peak season for New York in terms of weather and tourists, I presume that the winter months experience decreased ridership and this is important to know before committing. Will this be a seasonal business or year round?
+
+It would be important to understand the Walk Score (or in this case Bike Score) for Des Moines. If popular destinations require an hour long bike ride, are users likely to complete that trip or look for alternative modes of transportation (bus, taxi, Lyft).
 
 Similar to the existing repair visualizations, I would add an additional view that adds the geo-location as another factor. This will help the maintenance crew pinpoint which neighborhoods are seeing the highest traffic and when they can do repairs with minimal impact on riders.
 
