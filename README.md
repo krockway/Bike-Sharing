@@ -37,7 +37,7 @@ Popularity peaks during commuting hours (7-9am and 5-7pm) Monday through Friday.
 ### Is gender a factor in the days or time of trips?
 ![DayPopularityGender](https://github.com/krockway/Bike-Sharing/blob/main/images/DayPopularityGender.png)
 
-Gender does not appear to be a factor in the day of the week or time of day that bikes are used; similar patterns are seen for both genders. The unreported gender users do not have a distinct usage pattern, though weekends are slightly more popular.
+Gender does not appear to be a factor in the day of the week or time of day that bikes are used; similar patterns are seen for both genders. The unreported gender users do not have a distinct usage pattern, nor enough data points, though weekends are slightly more popular.
 
 ### Where are the most common starting points?
 ![Map](https://github.com/krockway/Bike-Sharing/blob/main/images/Map.png)
@@ -55,10 +55,10 @@ Overall, New York City (and Manhattan specifically) is a great place for a bike 
 
 ## Challenges & Next Steps
 
-Before committing to launching CitiBike in Des Moines, the owners should examine more months of data. August is peak season for New York in terms of weather and tourists, I presume that the winter months experience decreased ridership and this is important to know before committing. Will this be a seasonal business or year round?
+Before committing to launching CitiBike in Des Moines, the owners should examine more months of data. August is peak season for New York in terms of weather and tourists, I presume that the winter months experience decreased ridership and this is important to know before committing. Will this be a seasonal business or year round? If weather is a factor, does Des Moines share similar weather patterns with New York City?
 
-It would be important to understand the Walk Score (or in this case Bike Score) for Des Moines. If popular destinations require an hour long bike ride, are users likely to complete that trip or look for alternative modes of transportation (bus, taxi, Lyft).
+It would be important to understand the Walk Score (or in this case Bike Score) for Des Moines. If popular destinations require an hour long bike ride, are users likely to complete that trip or look for alternative modes of transportation (bus, taxi, Lyft)?
 
-Similar to the existing repair visualizations, I would add an additional view that adds the geo-location as another factor. This will help the maintenance crew pinpoint which neighborhoods are seeing the highest traffic and when they can do repairs with minimal impact on riders.
+Building off the existing repair visualizations, I would create an additional view that adds the geo-location. This will help the maintenance crew pinpoint which neighborhoods are seeing the highest traffic and when they can do repairs with minimal impact on riders.
 
-Lastly, it might be interesting to compare the length of each journey in miles. You could do so by comparing the starting and ending latitudes and longitudes.
+Lastly, it might be interesting to compare the length of each journey in miles. You could do so by comparing the starting and ending latitudes and longitudes. Does age or gender impact the miles per hour?
